@@ -22,3 +22,12 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+require 'mercadopago.rb'
+$mp = MercadoPago.new(ENV['MERCADOPAGO_KEY'])
+
+
+paymentInfo = $mp.get ("/v1/payments/9119110");
+
+puts paymentInfo

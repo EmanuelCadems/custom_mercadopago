@@ -52,3 +52,8 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+
+gem 'mercadopago-sdk', '0.3.4'
+
+gem 'figaro', '1.1.1'
